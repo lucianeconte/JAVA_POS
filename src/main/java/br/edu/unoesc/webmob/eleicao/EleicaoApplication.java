@@ -37,7 +37,7 @@ public class EleicaoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Meu primeiro projeto com Spring!");
+		System.out.println("POS WEB - Java - Atividade 2");
 		
 		// criando um novo partido
      	//Partido p = new Partido(null, "Partido muito ruim", "PMR");
@@ -49,7 +49,7 @@ public class EleicaoApplication implements CommandLineRunner {
      	System.out.println("salvou o partido");
      				
      	List<Partido> part = partidoService.listar();
-     	System.out.println("Lista de partidos");
+     	System.out.println("Lista de partidos:");
      	for(int i = 0; i < part.size(); i++){
      	    System.out.println(part.get(i).getSigla());
      	}
